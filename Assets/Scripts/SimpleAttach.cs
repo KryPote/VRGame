@@ -8,10 +8,19 @@ public class SimpleAttach : MonoBehaviour
 {
 
     private Interactable interactable;
-
+    public Teleport f1;
+    private void PlayAudioClip(AudioSource source, AudioClip clip)
+    {
+        source.clip = clip;
+        source.Play();
+    }
     void Start()
     {
         interactable = GetComponent<Interactable>();
+        Invoke("audio1", 3);
+        Invoke("audio2", 13);
+
+
     }
 
     // Update is called once per frame
@@ -41,5 +50,14 @@ public class SimpleAttach : MonoBehaviour
             hand.HoverUnlock(interactable);
         }
     }
+    void audio1()
+    {
+        PlayAudioClip(f1.audiohammer, f1.f1);
+    }
+    void audio2()
+    {
+        PlayAudioClip(f1.audiohammer, f1.f2);
+    }
+
 
 }

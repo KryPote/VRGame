@@ -56,13 +56,21 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Break.cs" />
+    <Compile Include="Assets\Scripts\Endgame.cs" />
+    <Compile Include="Assets\Scripts\Break.cs" />
     <Compile Include="Assets\Scripts\SimpleAttach.cs" />
-    <Compile Include="Assets\Scripts\ShowControllers.cs" />
-    <Compile Include="Assets\Keypad\Script\Playsound.cs" />
-    <Compile Include="Assets\Scripts\KeyFeedback.cs" />
-    <Compile Include="Assets\Scripts\Pointer.cs" />
     <Compile Include="Assets\Scripts\VRInputModule.cs" />
+    <Compile Include="Assets\Scripts\BoxAnim.cs" />
+    <Compile Include="Assets\Scripts\BlackLock.cs" />
+    <Compile Include="Assets\Scripts\RedLock.cs" />
+    <Compile Include="Assets\Scripts\BlueLock.cs" />
+    <Compile Include="Assets\Scripts\ShowControllers.cs" />
+    <Compile Include="Assets\Scripts\GreenLock.cs" />
+    <Compile Include="Assets\Scripts\CodeLock.cs" />
+    <Compile Include="Assets\Scripts\SingleButton.cs" />
+    <Compile Include="Assets\Scripts\ResetButton.cs" />
+    <Compile Include="Assets\Scripts\GreenButton.cs" />
+    <Compile Include="Assets\Scripts\BlackLockFake.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -51,6 +51,7 @@ namespace Valve.VR.InteractionSystem
 		public AudioSource loopingAudioSource;
 		public AudioSource headAudioSource;
 		public AudioSource reticleAudioSource;
+		public AudioSource audiohammer;
 
 		[Header( "Sounds" )]
 		public AudioClip teleportSound;
@@ -59,6 +60,11 @@ namespace Valve.VR.InteractionSystem
 		public AudioClip pointerStopSound;
 		public AudioClip goodHighlightSound;
 		public AudioClip badHighlightSound;
+		public AudioClip f1;
+		public AudioClip f2;
+		public AudioClip f3;
+		public AudioClip f4;
+		public AudioClip f5;
 
 		[Header( "Debug" )]
 		public bool debugFloor = false;
