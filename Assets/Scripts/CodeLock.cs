@@ -20,12 +20,10 @@ public class CodeLock : MonoBehaviour
             if (selectedvalue == correctrow)
             {
                 correct = true;
-                Debug.Log("True");
             }
             else
             {
                 correct = false;
-                Debug.Log("False");
             }
       }
     }
